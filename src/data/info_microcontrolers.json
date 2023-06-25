@@ -1,0 +1,41 @@
+{
+    "arduino": {
+        "title": "¿Qué es Arduino?",
+        "data": "Arduino es una plataforma de desarrollo de hardware y software de código abierto que permite crear proyectos interactivos. Consiste en una placa electrónica programable que utiliza un microcontrolador y un entorno de desarrollo integrado (IDE) para escribir y cargar programas en la placa.",
+        "programming_languaje": "El lenguaje de programación utilizado en Arduino se basa en C/C++, y el entorno de desarrollo proporciona una interfaz gráfica amigable para escribir, compilar y cargar los programas en la placa. Arduino es popular en el ámbito de la electrónica y la robótica, y se utiliza en una amplia gama de aplicaciones, desde proyectos simples de automatización del hogar hasta sistemas complejos de control y monitoreo.",
+        "placas": [
+            "Arduino Uno r3",
+            "Arduino DUE",
+            "Arduino Leonardo",
+            "Arduino Mega 2560",
+            "Arduino Mega ADK",
+            "Arduino Micro",
+            "Arduino Nano",
+            "Arduino YUN",
+            "Arduino FIO",
+            "Arduino 101 o Genuino 101",
+            "Arduino Esplora",
+            "Arduino Zero",
+            "Arduino MKR Zero",
+            "Arduino Ethernet",
+            "Arduino Industrial 101",
+            "Arduino MKR FOX 1200",
+            "Arduino MKR WAN 1300",
+            "Arduino MKR GSM 1400",
+            "Arduino MKR Wifi 1010",
+            "Arduino Uno Wifi REV2",
+            "Arduino MKR NB 1500",
+            "Arduino MKR Vidor 4000",
+            "Arduino MKR 1000 Wifi",
+            "Lilypad Arduino Simple",
+            "Lilypad Arduino Main Board",
+            "Lylipad Arduino USB",
+            "Lilypad Arduino Simple Snap"
+        ]
+    },
+    "esp32": {
+        "title": "¿Qué es Esp32?",
+        "data": "El ESP32 está basado en un microprocesador de doble núcleo Tensilica Xtensa LX6 con frecuencias de reloj de hasta 240 MHz. Cuenta con una amplia gama de características y periféricos, lo que lo convierte en una opción popular para el desarrollo de proyectos IoT. ",
+        "programming_languaje": "El ESP32 es compatible con el entorno de desarrollo Arduino, lo que facilita la programación y el desarrollo de proyectos utilizando el lenguaje de programación de Arduino."
+    }
+}

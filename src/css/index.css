@@ -1,0 +1,13 @@
+body{
+    background-color: #000020;
+}
+
+.container{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #171a4a;
+}
+
+.containerMain{
+    background-color: transparent;
+}
