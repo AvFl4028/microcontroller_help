@@ -5,7 +5,7 @@ export default function Card(props){
         <>
             <br />
         <div className="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
+                <div className="col-sm-6 mb-3 mb-sm-0">
                     <div className="card card-background">
                         <img src={props.img_one} alt="" />
                         <div className="card-body">
@@ -15,7 +15,7 @@ export default function Card(props){
                     </div>
                 </div>
 
-                <div class="col-sm-6">
+                <div className="col-sm-6">
                     <div className="card card-background">
                         <img src={props.img_two} alt="" />
                         <div className="card-body">
