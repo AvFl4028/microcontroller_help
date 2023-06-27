@@ -31,7 +31,25 @@
             "Lilypad Arduino Main Board",
             "Lylipad Arduino USB",
             "Lilypad Arduino Simple Snap"
-        ]
+        ],
+        "IDE": [
+            "El Arduino IDE (Integrated Development Environment, Entorno de Desarrollo Integrado de Arduino) es un software gratuito y de código abierto utilizado para programar placas de desarrollo basadas en la plataforma Arduino. Es una herramienta diseñada específicamente para facilitar la programación y el desarrollo de proyectos con Arduino.",
+            "El Arduino IDE proporciona una interfaz de usuario simple y fácil de usar que permite escribir, compilar y cargar el código en las placas de Arduino. Incluye un editor de texto en el que se puede escribir el código en el lenguaje de programación de Arduino (una variante simplificada de C++), y cuenta con una serie de características que facilitan el proceso de desarrollo, como resaltado de sintaxis, autocompletado y verificación de errores.",
+            "Además de su funcionalidad básica de programación, el Arduino IDE ofrece una biblioteca estándar de funciones y ejemplos que pueden ser utilizados para desarrollar una amplia gama de proyectos. También es compatible con una gran cantidad de placas de Arduino y otros microcontroladores compatibles, lo que lo convierte en una opción popular para la comunidad de desarrollo de Arduino.",
+            "El Arduino IDE es multiplataforma y está disponible para Windows, macOS y Linux, lo que permite a los usuarios de diferentes sistemas operativos utilizarlo de manera conveniente."
+        ],
+        "simuladores": {
+            "Tinkercad": {
+                "title": "Tinkercad",
+                "description": "Tinkercad es ampliamente utilizado en entornos educativos, ya que ofrece una forma accesible y visualmente atractiva de introducir a los estudiantes en conceptos de electrónica, programación y diseño. También es utilizado por aficionados y entusiastas de la electrónica para prototipar y experimentar con ideas de proyectos antes de llevarlos al mundo real.",
+                "url": "https://www.tinkercad.com/"
+            },
+            "Wokwi": {
+                "title": "Wokwi",
+                "description": "Wokwi proporciona una amplia variedad de herramientas de simulación y emulación para varios dispositivos y componentes electrónicos, como microcontroladores, Arduino, Raspberry Pi, sensores, actuadores y muchos más. Los usuarios pueden diseñar circuitos, escribir y probar código, y simular el funcionamiento de sus proyectos en un entorno virtual.",
+                "url": "https://wokwi.com/"
+            }
+        }
     },
     "esp32": {
         "title": "¿Qué es Esp32?",

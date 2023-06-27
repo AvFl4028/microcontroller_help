@@ -1,0 +1,41 @@
+.title-center {
+    text-align: center;
+}
+
+.btn-collapse {
+    border: 0;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-link{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-collapse:hover {
+    background-color: #675cb0;
+    color: beige;
+}
+
+.collapseContainer {
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+}
+
+.center {
+    text-align: center;
+}
+
+.transparent{
+    background-color: transparent;
+    border: 0;
+}
+
+.img{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
