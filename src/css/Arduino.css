@@ -38,4 +38,16 @@
     display: flex;
     margin: auto;
     width: 80%;
+    border-radius: 20px;
+}
+
+.card_background{
+    background-color: #2f2c79;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    color: aliceblue;
+    font-size: x-large;
+    padding: 1%;
+    border-radius: 15px;
 }

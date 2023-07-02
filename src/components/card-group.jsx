@@ -10,9 +10,18 @@ export default function CardGroup(props) {
                     <SyntaxHighlighter language="cpp" style={SyntaxStyle}>
                         {props.code}
                     </SyntaxHighlighter>
+
+                    <div class="card-body">
+                        <h5 class=" card_background">{props.title_card_one}</h5>
+                        <p class="card-text title-center">{props.description_card_one}</p>
+                    </div>
                 </div>
                 <div className="card transparent">
-                    <img src={props.img} alt="" />
+                    <img src={props.img} className='img' />
+                    <div class="card-body">
+                        <h5 class="card_background">{props.title_card_two}</h5>
+                        <p class="card-text title-center">{props.description_card_two}</p>
+                    </div>
                 </div>
             </div>
         </>

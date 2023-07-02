@@ -11,6 +11,10 @@ import ArduinoIDEImg from "../img/arduino_ide.png";
 import TinkercadLogo from "../img/tinkercad_logo.png";
 import WokwiLogo from "../img/wokwi_logo.png";
 
+import ArduinoImgDiagramLedOne from "../img/led_13.png";
+import ArduinoImgDiagramLedTwo from "../img/led_3.png";
+import ArduinoImgDiagramPot from "../img/pot_A0.png";
+
 export default function Arduino() {
     //console.log(SyntaxHighlighter.supportedLanguages);
 
@@ -157,9 +161,10 @@ export default function Arduino() {
 
                 <div className="collapse" id="arduino_Hello_World">
                     <CardGroup
-                        className="collapse"
-                        identificador="arduino_Hello_World"
                         code={HelloWorld}
+                        img={ArduinoImgDiagramLedOne}
+                        title_card_one="Código"
+                        title_card_two="Diagrama"
                     />
                 </div>
 
@@ -177,7 +182,12 @@ export default function Arduino() {
                 </div>
 
                 <div className="collapse" id="arduino_Blink">
-                    <CardGroup code={Blink} />
+                    <CardGroup
+                        code={Blink}
+                        img={ArduinoImgDiagramLedOne}
+                        title_card_one="Código"
+                        title_card_two="Diagrama"
+                    />
                 </div>
 
                 <div className="collapseContainer">
@@ -194,7 +204,12 @@ export default function Arduino() {
                 </div>
 
                 <div className="collapse" id="arduino_AnalogRead">
-                    <CardGroup code={AnalogRead} />
+                    <CardGroup
+                        code={AnalogRead}
+                        img={ArduinoImgDiagramPot}
+                        title_card_one="Código"
+                        title_card_two="Diagrama"
+                    />
                 </div>
 
                 <div className="collapseContainer">
@@ -211,7 +226,12 @@ export default function Arduino() {
                 </div>
 
                 <div className="collapse" id="arduino_PWM">
-                    <CardGroup code={PWM} />
+                    <CardGroup
+                        code={PWM}
+                        img={ArduinoImgDiagramLedTwo}
+                        title_card_one="Código"
+                        title_card_two="Diagrama"
+                    />
                 </div>
 
                 <div className="collapseContainer">
@@ -227,7 +247,12 @@ export default function Arduino() {
                     </button>
                 </div>
                 <div className="collapse" id="arduino_Functions">
-                    <CardGroup code={Functions} />
+                    <CardGroup
+                        code={Functions}
+                        img={ArduinoImgDiagramLedTwo}
+                        title_card_one="Código"
+                        title_card_two="Diagrama"
+                    />
                 </div>
             </div>
         </>
